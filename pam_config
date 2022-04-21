@@ -1,0 +1,8 @@
+Name: Windows Hello Authentication
+Default: yes
+Priority: 512
+Auth-Type: Primary
+Auth:
+        [success=end default=ignore] pam_exec.so /usr/local/bin/WindowsHelloAuthenticator.exe
+Auth-Initial:
+        [success=end default=ignore] pam_exec.so /usr/local/bin/WindowsHelloAuthenticator.exe
