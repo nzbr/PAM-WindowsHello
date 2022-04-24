@@ -1,4 +1,8 @@
 # PAM-WindowsHello
+<h2>
+  ⚠️ You probably do NOT want to use this for anything security-critical ⚠️ <br/>
+  I am not responsible for anyone bypassing the login on a system you install this to!
+</h2>
 
 This utility allows to authenticate in WSL using Windows Hello
 
